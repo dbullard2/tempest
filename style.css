@@ -1,0 +1,35 @@
+body{
+  background: rgb(0, 255, 155);
+  background: linear-gradient(90deg, rgba(0,255,155,1) 0%, rgba(0,62,255,1) 100%);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+input{
+  background-color: white;
+  border: none;
+  width: 80%;
+  border-radius: 50px;
+  height: 8vh;
+  margin-top: 50vh;
+  color: #787878;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.title{
+  font-weight: 600;
+  font-size: 5vw;
+}
+
+.section-one{
+  text-align: center;
+}
+
+.subtitle{
+  font-size: 1.5vw;
+}
+
+::placeholder {
+  text-align: center;
+}
