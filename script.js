@@ -1,10 +1,7 @@
-//var cities = ["New York City", "Paris", "Rome", "London", "Berlin", "Jerusalem", "Prague" "Amsterdam", "Amsterdam", "Madrid", "Munich", "Vienna", "Washington DC"]
+function autocomplete(inp, arr){
+  var currentFocus
+  inp.addEventListener("input", function(e))
+}
 
-var mycars = ['Herr','Frau'];
-var list = document.getElementById('anrede');
-
-mycars.forEach(function(item){
-   var option = document.createElement('option');
-   option.value = item;
-   list.appendChild(option);
-});
+var cities =
+["Amsterdam, Netherlands", "Athens, Greece", "Auckland, New Zealand", "Bangkok, Thailand", "Barcelona, Spain", "Beijing, China", "Berlin, Germany", "Bled, Slovenia", "Brussels, Belgium", "Budapest, Hungary", "Buenos Aires, Argentina", "Cairo, Egypt", "Cape Town, South Africa", "Chicago, United States", "Cusco, Peru", "Dublin, Ireland", "Dubrovnik, Croatia", "Edinburgh, United Kingdom", "Fes, Morocco", "Florence, Italy", "Granada, Spain", "Hamburg, Germany", "Hanoi, Vietnam", "Havana, Cuba", "Helsinki, Finland", "Ho Chi Minh City, Vietnam", "Hong Kong, China", "Istanbul, Turkey", "Jerusalem, Israel", "Kathmandu, Nepal", "Kolkata, India", "Krakow, Poland ", "Kyoto, Japan", "Las Vegas,United States", "Lhasa, China", "Lisbon, Portugal", "Ljubljana, Slovenia", "London, United Kingdom", "Los Angeles, United States", "Luang Prabang, Laos", "Madrid, Spain", "Marrakech, Morocco", "Manila, Philippines", "Melbourne, Australia", "Mexico City, Mexico", "Montreal, Canada", "Moscow, Russia", "Mumbai, India", "Munich, Germany", "New Delhi, India", "New Orleans, United States", "New York City, United States", "Paris, France", "Phnom Penh, Cambodia", "Prague, Czech Republic", "Rio De Janeiro, Brazil", "Rome, Italy", "Salvador Da Bahia, Brazil", "San Francisco, United States", "Santiago, Chile", "Seattle, United States", "Seoul, South Korea", "Seville, Spain", "Shanghai, China", "Singapore", "St. Petersburg, Russia", "Stockholm, Sweden", "Sydney, Australia", "Taipei, Taiwan", "Tallinn, Estonia", "Tel Aviv, Israel", "Tokyo, Japan", "Totonto, Canada", "Varanasi, India", "Venice, Italy", "Vienna, Austria", "Washington DC, United States", "Wellington, New Zealand", "Zanzibar, Tanzania"];
